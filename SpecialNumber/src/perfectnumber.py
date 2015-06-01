@@ -20,4 +20,4 @@ else:
         print(number, " la so hoan hao")
     else:
         
-        print(number, " khong phai la so hoan hoa")  
+        print(number, " khong phai la so hoan hao")  

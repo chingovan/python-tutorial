@@ -13,7 +13,7 @@ if number <= 0:
 else:
     
     isSquareNumber = False
-    for i in range(0, number + 1):
+    for i in range(1, number + 1):
         
         if i * i == number:
             
