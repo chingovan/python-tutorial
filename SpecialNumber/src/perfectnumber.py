@@ -6,7 +6,7 @@ Date:        2015/06/01
 Slogan:      For a brighter future!
 """
 number = int(input("Nhap vao mot so: "))
-if number <= 0:
+if number <= 1:
     print(number, " khong phai la so hoan hao")
 else:
     sumDivision = 0
