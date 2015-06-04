@@ -14,13 +14,13 @@ def isPrimerNumber(num):
      
         return True
     else:
-        isPrimeNumber = True;
+        isPrimeNum = True;
         for i in range(2, num):
             if num % i == 0:
-                isPrimeNumber = False;
+                isPrimeNum = False;
                 break
         
-        if isPrimeNumber == True:
+        if isPrimeNum == True:
             return True
         else:
             return  False

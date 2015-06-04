@@ -12,18 +12,15 @@ def isSquareNumber(num):
         return False
     else:
     
-        isSquareNumber = False
+        isSquareNum = False
         for i in range(1, number + 1):
         
             if i * i == number:
             
-                isSquareNumber = True
+                isSquareNum = True
                 break
         
-        if isSquareNumber == True:
-            return True
-        else:
-            return False
+        return True if isSquareNum else False;
         
 number = int(input("Nhap vao mot so nguyen:"))
 
